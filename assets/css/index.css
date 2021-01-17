@@ -4,4 +4,237 @@ body {
   color: #FFFFFF;
   font-family: Montserrat, -apple-system, 'segoe ui', roboto;
 }
+
+#page .text-light {
+  font-weight: 300;
+}
+
+#page .text-bold {
+  font-weight: 700;
+}
+
+#page .menu {
+  position: fixed;
+  top: 200px;
+  right: 1vw;
+}
+
+#page .menu.open {
+  right: 0;
+}
+
+#page .menu .menu__chapter-option {
+  padding: 12px 0;
+  padding-left: 10px;
+  border-left: 2px solid #444444;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#page .menu .menu__chapter-option.active {
+  color: #999999;
+}
+
+#page .menu .menu__chapter-option.active, #page .menu .menu__chapter-option:hover {
+  color: #999999;
+  border-color: #FFFFFF;
+}
+
+#page .menu .menu__chapter-option > span:nth-of-type(1) {
+  font-size: 14px;
+}
+
+#page .menu .menu__chapter-option > span:nth-of-type(2) {
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+#page .menu .menu__contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px 0;
+  border-left: 2px solid #444444;
+}
+
+#page .menu .menu__contact-info a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 5px 0;
+  padding-left: 10px;
+}
+
+#page .menu .menu__contact-info .menu__contact-info-mail-popup {
+  position: fixed;
+  top: 0;
+  height: 0;
+  display: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+#page .btn-toggle-menu {
+  display: none;
+  width: 60px;
+  height: 45px;
+  position: fixed;
+  top: 1vh;
+  right: 1vh;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#page .btn-toggle-menu span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #FFFFFF;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#page .btn-toggle-menu span:nth-child(1) {
+  top: 0px;
+}
+
+#page .btn-toggle-menu span:nth-child(2), #page .btn-toggle-menu span:nth-child(3) {
+  top: 18px;
+}
+
+#page .btn-toggle-menu span:nth-child(4) {
+  top: 36px;
+}
+
+#page .btn-toggle-menu.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#page .btn-toggle-menu.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#page .btn-toggle-menu.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#page .btn-toggle-menu.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#page .chapters.close {
+  visibility: hidden;
+}
+
+#page .chapter {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 30px;
+}
+
+#page .chapter .title {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+#page .top.chapter .personal-image img {
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+}
+
+#page .top.chapter .firstname {
+  margin-top: 50px;
+}
+
+#page .top.chapter .firstname, #page .top.chapter .lastname {
+  font-size: 100px;
+  font-weight: 800;
+}
+
+#page .top.chapter .seperator {
+  margin-top: 15px;
+  width: 100px;
+  height: 2px;
+  background-color: #FFFFFF;
+}
+
+#page .top.chapter .title {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#page .about.chapter p {
+  width: 65vw;
+  font-size: 20px;
+}
+
+@media (max-width: 575px) {
+  #page .menu {
+    right: 100vw;
+  }
+  #page .menu .menu__chapter-option > span:nth-of-type(1) {
+    font-size: 20px;
+  }
+  #page .menu .menu__chapter-option > span:nth-of-type(2) {
+    margin-left: 5px;
+    font-size: 25px;
+  }
+  #page .btn-toggle-menu {
+    display: block;
+  }
+  #page .chapter .title {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  #page .top.chapter .personal-image img {
+    height: 100px;
+  }
+  #page .top.chapter .firstname, #page .top.chapter .lastname {
+    font-size: 40px;
+  }
+  #page .top.chapter .title {
+    font-size: 12px;
+  }
+  #page .about.chapter p {
+    font-size: 15px;
+  }
+}
 /*# sourceMappingURL=index.css.map */

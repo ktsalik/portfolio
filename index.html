@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
     let showPage = function() {
@@ -9,7 +11,7 @@
 
     WebFont.load({
       google: {
-        families: ['Montserrat:300,400,700'],
+        families: ['Montserrat:300,400,700,800'],
       },
       active: function() {
         showPage();
@@ -23,7 +25,93 @@
 </head>
 <body>
   <div id="page" style="display: none;">
-    init
+    <div class="menu">
+      <div class="menu__chapter-option active" data-chapter="top">
+        <span class="text-light">01</span>
+        <span class="text-bold">TOP</span>
+      </div>
+      <div class="menu__chapter-option" data-chapter="about">
+        <span class="text-light">02</span>
+        <span class="text-bold">ABOUT ME</span>
+      </div>
+      <div class="menu__chapter-option" data-chapter="skills">
+        <span class="text-light">03</span>
+        <span class="text-bold">SKILLS</span>
+      </div>
+      <div class="menu__chapter-option" data-chapter="education">
+        <span class="text-light">04</span>
+        <span class="text-bold">EDUCATION</span>
+      </div>
+      <div class="menu__chapter-option" data-chapter="experience">
+        <span class="text-light">05</span>
+        <span class="text-bold">EXPERIENCE</span>
+      </div>
+      <div class="menu__chapter-option" data-chapter="projects">
+        <span class="text-light">06</span>
+        <span class="text-bold">PROJECTS</span>
+      </div>
+      <div class="menu__chapter-option" data-chapter="contact">
+        <span class="text-light">07</span>
+        <span class="text-bold">CONTACT</span>
+      </div>
+      <div class="menu__contact-info">
+        <a class="menu__contact-info-mail" href="mailto:kostas.tsalikides@gmail.com">kostas.tsalikides@gmail.com</a>
+        <a href="tel:00306987040946">+30 698 7040 946</a>
+        <div class="menu__contact-info-mail-popup">Press Ctrl + C to copy</div>
+      </div>
+    </div>
+    <div class="btn-toggle-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="chapters">
+      <div class="top chapter">
+        <div class="personal-image">
+          <img src="assets/img/personal-image.png" height="100" />
+        </div>
+        <div class="firstname">
+          Costas
+        </div>
+        <div class="lastname">
+          Tsalikides
+        </div>
+        <div class="seperator"></div>
+        <div class="title">FREELANCE WEB DEVELOPER</div>
+      </div>
+      <div class="about chapter">
+        <div class="title">ABOUT ME</div>
+        <p>
+          Hello, I’m Costas Tsalikides, an experienced Web Developer with more than six years of hands-on experience in Web Technologies. I have worked on several projects with HTML, JavaScript, and PHP.
+          Currently, I'm trying to follow up with the latest Front-end technologies such as Angular, VueJS, ReactJS and PixiJS.
+          With my current experience, love for coding and passion for delivering clean and reusable code, I would be a great asset for your company.
+        </p>
+      </div>
+      <div class="skills chapter">
+        <div class="title">SKILLS</div>
+        
+      </div>
+      <div class="education chapter">
+        <div class="title">EDUCATION</div>
+        
+      </div>
+      <div class="experience chapter">
+        <div class="title">EXPERIENCE</div>
+        
+      </div>
+      <div class="projects chapter">
+        <div class="title">PROJECTS</div>
+        
+      </div>
+      <div class="contact chapter">
+        <div class="title">CONTACT</div>
+        
+      </div>
+    </div>
   </div>
+
+  <!-- <script src="assets/lib/jquery-3.5.1.slim.min.js"></script> -->
+  <script src="assets/js/index.js"></script>
 </body>
 </html>
