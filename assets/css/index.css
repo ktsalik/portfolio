@@ -206,6 +206,43 @@ body {
   font-size: 20px;
 }
 
+#page .skills.chapter .technologies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 65vw;
+  margin-top: 50px;
+}
+
+#page .skills.chapter .technologies .technologies__item {
+  margin: 10px 10px;
+}
+
+#page .skills.chapter .technologies .technologies__item .label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#page .skills.chapter .technologies .technologies__item .bar {
+  position: relative;
+  width: 250px;
+  height: 3px;
+  margin-top: 5px;
+  background-color: #333333;
+}
+
 @media (max-width: 575px) {
   #page .menu {
     right: 100vw;

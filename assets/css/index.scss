@@ -212,6 +212,32 @@ body {
 
   .skills.chapter {
     
+    .technologies {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 65vw;
+      margin-top: 50px;
+
+      .technologies__item {
+        margin: 10px 10px;
+
+        .label {
+          font-size: 15px;
+          font-weight: 700;
+        }
+  
+        .bar {
+          position: relative;
+          width: 250px;
+          height: 3px;
+          margin-top: 5px;
+          background-color: #333333;
+        }
+      }
+    }
   }
 }
 

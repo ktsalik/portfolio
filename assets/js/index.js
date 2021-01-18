@@ -55,11 +55,13 @@ for (let i = 0; i < menuChapterOptions.length; i++) {
 window.addEventListener('scroll', function() {
   let chapterInView = null;
   let menuChapterOptionActive = null;
+  let chapterName = '';
   for (let i = 0; i < menuChapterOptions.length; i++) {
     let chapterEl = document.querySelector('.' + menuChapterOptions[i].getAttribute('data-chapter') + '.chapter');
     if (window.scrollY >= chapterEl.offsetTop) {
       chapterInView = chapterEl;
       menuChapterOptionActive = menuChapterOptions[i];
+      chapterName = menuChapterOptions[i].getAttribute('data-chapter');
     } else {
       break;
     }
@@ -68,6 +70,9 @@ window.addEventListener('scroll', function() {
     menuChapterOptions[i].classList.remove('active');
   }
   menuChapterOptionActive.classList.add('active');
+  onChapterInView(chapterName);
+
+  skillPercentEl.style.display = 'none';
 });
 
 // mobile menu
@@ -76,3 +81,47 @@ document.querySelector('.btn-toggle-menu').addEventListener('click', function() 
   document.querySelector('.menu').classList.toggle('open');
   document.querySelector('.chapters').classList.toggle('close');
 });
+
+// skills bars
+let skillPercentEl = document.createElement('div');
+skillPercentEl.style.position = 'fixed';
+skillPercentEl.style.display = 'none';
+skillPercentEl.style.fontSize = '12px';
+skillPercentEl.style.fontWeight = '300';
+skillPercentEl.addEventListener('mouseover', function() {
+  skillPercentEl.style.display = 'block';
+});
+skillPercentEl.addEventListener('mouseout', function() {
+  skillPercentEl.style.display = 'none';
+});
+document.querySelector('.skills.chapter').appendChild(skillPercentEl);
+let skillsItems = document.querySelectorAll('.skills.chapter .technologies__item');
+for (let i = 0; i < skillsItems.length; i++) {
+  let label = skillsItems[i].querySelector('.label');
+  let bar = skillsItems[i].querySelector('.bar');
+  
+  let fillBarEl = document.createElement('div');
+  bar.appendChild(fillBarEl);
+  fillBarEl.style.position = 'absolute';
+  fillBarEl.style.top = 0;
+  fillBarEl.style.left = 0;
+  fillBarEl.style.backgroundColor = '#EEEEEE';
+  fillBarEl.style.width = bar.getAttribute('data-percent') + '%';
+  fillBarEl.style.height = '100%';
+
+  bar.addEventListener('mouseover', function() {
+    skillPercentEl.innerText = bar.getAttribute('data-percent') + '%';
+    let skillsItem = skillsItems[i].getBoundingClientRect();
+    skillPercentEl.style.top = skillsItem.top + 'px';
+    skillPercentEl.style.left = skillsItem.left + (skillsItem.width * 0.5) + 'px';
+    skillPercentEl.style.display = 'block';
+  });
+  bar.addEventListener('mouseout', function() {
+    skillPercentEl.style.display = 'none';
+  });
+}
+
+// on chapters change
+let onChapterInView = function(name) {
+  
+};
