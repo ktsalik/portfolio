@@ -162,7 +162,7 @@ body {
     align-items: flex-start;
     padding-left: 30px;
 
-    .title {
+    & > .title {
       font-size: 50px;
       font-weight: 800;
     }
@@ -236,6 +236,103 @@ body {
           margin-top: 5px;
           background-color: #333333;
         }
+      }
+    }
+  }
+
+  .education.chapter {
+
+    .records {
+      width: 65vw;
+      margin-top: 50px;
+
+      .records__item {
+
+        & > * {
+          padding: 3px 0;
+          padding-left: 10px;
+          border-left: 2px solid #999999;
+        }
+
+        .date {
+          font-size: 15px;
+          font-weight: 300;
+        }
+
+        .title {
+          font-size: 20px;
+          font-weight: 700;
+
+          span {
+            font-weight: 300;
+          }
+        }
+
+        .name {
+          font-size: 20px;
+          font-weight: 400;
+        }
+
+        .place {
+          font-size: 13px;
+          font-weight: 300;
+        }
+      }
+
+      .seperator {
+        height: 100px;
+        border-left: 2px solid #333333;
+      }
+
+      .start-point {
+        width: 4px;
+        height: 4px;
+        background-color: #999999;
+        margin-left: -1px;
+      }
+    }
+  }
+
+  .experience.chapter {
+
+    .records {
+      width: 65vw;
+      margin-top: 50px;
+
+      .records__item {
+
+        & > * {
+          padding: 3px 0;
+          padding-left: 10px;
+          border-left: 2px solid #999999;
+        }
+
+        .date {
+          font-size: 15px;
+          font-weight: 300;
+        }
+
+        .title {
+          font-size: 20px;
+          font-weight: 400;
+        }
+
+        .place {
+          font-size: 13px;
+          font-weight: 300;
+        }
+      }
+
+      .seperator {
+        height: 100px;
+        border-left: 2px solid #333333;
+      }
+
+      .start-point {
+        width: 4px;
+        height: 4px;
+        background-color: #999999;
+        margin-left: -1px;
       }
     }
   }

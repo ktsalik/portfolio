@@ -168,7 +168,7 @@ body {
   padding-left: 30px;
 }
 
-#page .chapter .title {
+#page .chapter > .title {
   font-size: 50px;
   font-weight: 800;
 }
@@ -241,6 +241,91 @@ body {
   height: 3px;
   margin-top: 5px;
   background-color: #333333;
+}
+
+#page .education.chapter .records {
+  width: 65vw;
+  margin-top: 50px;
+}
+
+#page .education.chapter .records .records__item > * {
+  padding: 3px 0;
+  padding-left: 10px;
+  border-left: 2px solid #999999;
+}
+
+#page .education.chapter .records .records__item .date {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#page .education.chapter .records .records__item .title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#page .education.chapter .records .records__item .title span {
+  font-weight: 300;
+}
+
+#page .education.chapter .records .records__item .name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#page .education.chapter .records .records__item .place {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#page .education.chapter .records .seperator {
+  height: 100px;
+  border-left: 2px solid #333333;
+}
+
+#page .education.chapter .records .start-point {
+  width: 4px;
+  height: 4px;
+  background-color: #999999;
+  margin-left: -1px;
+}
+
+#page .experience.chapter .records {
+  width: 65vw;
+  margin-top: 50px;
+}
+
+#page .experience.chapter .records .records__item > * {
+  padding: 3px 0;
+  padding-left: 10px;
+  border-left: 2px solid #999999;
+}
+
+#page .experience.chapter .records .records__item .date {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#page .experience.chapter .records .records__item .title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#page .experience.chapter .records .records__item .place {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#page .experience.chapter .records .seperator {
+  height: 100px;
+  border-left: 2px solid #333333;
+}
+
+#page .experience.chapter .records .start-point {
+  width: 4px;
+  height: 4px;
+  background-color: #999999;
+  margin-left: -1px;
 }
 
 @media (max-width: 575px) {
