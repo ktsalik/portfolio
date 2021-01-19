@@ -152,14 +152,14 @@
             <div class="date">2017 - now</div>
             <div class="title">Freelancer</div>
             <div class="place">Macbook Air, Thessaloniki, Greece</div>
-            <div class="description">Development of commercial websites, web applications and web games.</div>
+            <div class="description">Development of commercial websites, web applications, mobile applications and web games.</div>
           </div>
           <div class="seperator"></div>
           <div class="records__item">
             <div class="date">2016 - 2017</div>
             <div class="title">Font-end Developer</div>
             <div class="place">Circles Ltd, Limassol, Cyprus</div>
-            <div class="description">I've been   part of a team for the implementation of the User Interface of a WiFi prototype. I have worked with Atlassian Software in an agile environment developing new features.</div>
+            <div class="description">I've been part of a team for the implementation of the user interface of a WiFi prototype. I have worked with Atlassian software in an agile environment developing new features.</div>
           </div>
           <div class="seperator"></div>
           <div class="start-point"></div>
