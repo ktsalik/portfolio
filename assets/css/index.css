@@ -86,11 +86,11 @@ body {
 
 #page .btn-toggle-menu {
   display: none;
-  width: 60px;
+  width: 45px;
   height: 45px;
   position: fixed;
-  top: 1vh;
-  right: 1vh;
+  top: 2vh;
+  right: 2vh;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   -webkit-transition: .5s ease-in-out;
@@ -117,11 +117,11 @@ body {
 }
 
 #page .btn-toggle-menu span:nth-child(2), #page .btn-toggle-menu span:nth-child(3) {
-  top: 18px;
+  top: 13px;
 }
 
 #page .btn-toggle-menu span:nth-child(4) {
-  top: 36px;
+  top: 27px;
 }
 
 #page .btn-toggle-menu.open span:nth-child(1) {
@@ -350,7 +350,7 @@ body {
     height: 100px;
   }
   #page .top.chapter .firstname, #page .top.chapter .lastname {
-    font-size: 40px;
+    font-size: 50px;
   }
   #page .top.chapter .title {
     font-size: 12px;
