@@ -219,12 +219,12 @@
           </div>
           <div class="records__item">
             <div class="image">
-              <a href="https://scoopa.gr/">
+              <a href="http://scoopa.gr/">
                 <img src="assets/img/scoopa.png" width="200" />
               </a>
             </div>
             <div class="name">
-              <a href="https://scoopa.gr/">
+              <a href="http://scoopa.gr/">
                 scoopa.gr
               </a>
             </div>
@@ -266,12 +266,12 @@
           </div>
           <div class="records__item">
             <div class="image">
-              <a href="https://i-met.gr/version2/">
+              <a href="http://i-met.gr/version2/">
                 <img src="assets/img/i-met.png" width="200" />
               </a>
             </div>
             <div class="name">
-              <a href="https://i-met.gr/version2/">
+              <a href="http://i-met.gr/version2/">
                 i-met.gr
               </a>
             </div>
