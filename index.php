@@ -85,7 +85,7 @@
         <div class="title">FREELANCE WEB DEVELOPER</div>
       </div>
       <div class="about chapter">
-        <div class="title">ABOUT ME</div>
+        <h1 class="title">ABOUT ME</h1>
         <p>
           Hello, I'm Costas Tsalikides, an experienced Web Developer with more than six years of hands-on experience in Web Technologies. I have worked on several projects with HTML, JavaScript, and PHP.
           Currently, I'm trying to follow up with the latest Front-end technologies such as Angular, VueJS, ReactJS and PixiJS.
@@ -93,7 +93,7 @@
         </p>
       </div>
       <div class="skills chapter">
-        <div class="title">SKILLS</div>
+        <h1 class="title">SKILLS</h1>
         <div class="technologies">
           <div class="technologies__item">
             <div class="label">HTML</div>
@@ -126,7 +126,7 @@
         </div>
       </div>
       <div class="education chapter">
-        <div class="title">EDUCATION</div>
+        <h1 class="title">EDUCATION</h1>
         <div class="records">
           <div class="records__item">
             <div class="date">2014 - 2015</div>
@@ -146,7 +146,7 @@
         </div>
       </div>
       <div class="experience chapter">
-        <div class="title">EXPERIENCE</div>
+        <h1 class="title">EXPERIENCE</h1>
         <div class="records">
           <div class="records__item">
             <div class="date">2017 - now</div>
@@ -166,7 +166,7 @@
         </div>
       </div>
       <div class="projects chapter">
-        <div class="title">PROJECTS</div>
+        <h1 class="title">PROJECTS</h1>
         <div class="records">
           <div class="records__item">
             <div class="image">
@@ -299,12 +299,36 @@
         </div>
       </div>
       <div class="contact chapter">
-        <div class="title">CONTACT</div>
-        
+        <h1 class="title">CONTACT</h1>
+        <div class="info">
+          <h5 class="info__title">STAY IN TOUCH</h5>
+          <a class="info__email" href="mailto:kostas.tsalikides@gmail.com">kostas.tsalikides@gmail.com</a>
+          <a class="info__phone" href="tel:00306987040946">+30 698 7040 946</a>
+        </div>
+        <div class="message">
+          <h3 class="message__title">LEAVE A MESSAGE</h3>
+          <div class="message__field">
+            <div class="label">NAME</div>
+            <input type="text" placeholder="Your name">
+          </div>
+          <div class="message__field">
+            <div class="label">EMAIL</div>
+            <input type="email" placeholder="@">
+          </div>
+          <div class="message__field">
+            <div class="label">MESSAGE</div>
+            <textarea placeholder="Your message"></textarea>
+          </div>
+          <button class="message__btn-send">SEND</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <a href="https://github.com/ktsalik/portfolio/commits/master"><small>How this website is made</small></a>
       </div>
     </div>
   </div>
-
+  
   <script src="assets/js/index.js?v=<?= $uniqid ?>"></script>
 </body>
 </html>
