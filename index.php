@@ -309,17 +309,17 @@
           <h3 class="message__title">LEAVE A MESSAGE</h3>
           <div class="message__field">
             <div class="label">NAME</div>
-            <input type="text" placeholder="Your name">
+            <input type="text" placeholder="Your name" disabled>
           </div>
           <div class="message__field">
             <div class="label">EMAIL</div>
-            <input type="email" placeholder="@">
+            <input type="email" placeholder="@" disabled>
           </div>
           <div class="message__field">
             <div class="label">MESSAGE</div>
-            <textarea placeholder="Your message"></textarea>
+            <textarea placeholder="Your message" disabled></textarea>
           </div>
-          <button class="message__btn-send">SEND</button>
+          <button class="message__btn-send" onclick="alert('Please send an E-mail to kostas.tsalikides@gmail.com');">SEND</button>
         </div>
       </div>
 
