@@ -167,7 +167,136 @@
       </div>
       <div class="projects chapter">
         <div class="title">PROJECTS</div>
-        
+        <div class="records">
+          <div class="records__item">
+            <div class="image">
+              <a href="https://sagagroup.gr/eshop/">
+                <img src="assets/img/saga-group-eshop.png" width="200" />
+              </a>
+            </div>
+            <div class="name">
+              <a href="https://sagagroup.gr/eshop/">
+                Saga Group E-shop
+              </a>
+            </div>
+            <div class="technologies">
+              <div>HTML Template</div>
+              <div class="seperator"></div>
+              <div>AngularJS</div>
+            </div>
+          </div>
+          <div class="records__item">
+            <div class="image">
+              <a href="https://sagagroup.gr/">
+                <img src="assets/img/saga-group.png" width="200" />
+              </a>
+            </div>
+            <div class="name">
+              <a href="https://sagagroup.gr/">
+                sagagroup.gr
+              </a>
+            </div>
+            <div class="technologies">
+              <div>VueJS</div>
+            </div>
+          </div>
+          <div class="records__item">
+            <div class="image">
+              <a href="https://papadatoscars.gr/">
+                <img src="assets/img/papadatoscars.png" width="200" />
+              </a>
+            </div>
+            <div class="name">
+              <a href="https://papadatoscars.gr/">
+                papadatoscars.gr
+              </a>
+            </div>
+            <div class="technologies">
+              <div>HTML Template</div>
+              <div class="seperator"></div>
+              <div>AngularJS</div>
+            </div>
+          </div>
+          <div class="records__item">
+            <div class="image">
+              <a href="https://scoopa.gr/">
+                <img src="assets/img/scoopa.png" width="200" />
+              </a>
+            </div>
+            <div class="name">
+              <a href="https://scoopa.gr/">
+                scoopa.gr
+              </a>
+            </div>
+            <div class="technologies">
+              <div>HTML Template</div>
+            </div>
+          </div>
+          <div class="records__item">
+            <div class="image">
+              <a href="http://tsalikidis.rf.gd/motorline-service/">
+                <img src="assets/img/motorline-service.png" width="200" />
+              </a>
+            </div>
+            <div class="name">
+              <a href="http://tsalikidis.rf.gd/motorline-service/">
+                motorline-service.gr
+              </a>
+            </div>
+            <div class="technologies">
+              <div>HTML Template</div>
+            </div>
+          </div>
+          <div class="records__item">
+            <div class="image">
+              <a href="https://rentacar.papadatoscars.gr/">
+                <img src="assets/img/rentacar-papadatoscars.png" width="200" />
+              </a>
+            </div>
+            <div class="name">
+              <a href="https://rentacar.papadatoscars.gr/">
+                Papadatos Cars Rent a Car
+              </a>
+            </div>
+            <div class="technologies">
+              <div>HTML Template</div>
+              <div class="seperator"></div>
+              <div>AngularJS</div>
+            </div>
+          </div>
+          <div class="records__item">
+            <div class="image">
+              <a href="https://i-met.gr/version2/">
+                <img src="assets/img/i-met.png" width="200" />
+              </a>
+            </div>
+            <div class="name">
+              <a href="https://i-met.gr/version2/">
+                i-met.gr
+              </a>
+            </div>
+            <div class="technologies">
+              <div>ReactJS</div>
+            </div>
+          </div>
+          <div class="records__item">
+            <div class="image">
+              <a href="https://play.google.com/store/apps/details?id=io.tsalikidis.papadatoscars&hl=en/">
+                <img src="assets/img/papadatoscars-app.png" width="200" />
+              </a>
+            </div>
+            <div class="name">
+              <a href="https://play.google.com/store/apps/details?id=io.tsalikidis.papadatoscars&hl=en/">
+                Papadatos Cars Android App
+              </a>
+            </div>
+            <div class="technologies">
+              <div>Cordova</div>
+              <div class="seperator"></div>
+              <div>VanillaJS</div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="contact chapter">
         <div class="title">CONTACT</div>
