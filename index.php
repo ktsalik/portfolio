@@ -83,6 +83,7 @@
         </div>
         <div class="seperator"></div>
         <div class="title">FREELANCE WEB DEVELOPER</div>
+        <a href="CV-Tsalikides.pdf" class="btn-download-cv">Download CV</a>
       </div>
       <div class="about chapter">
         <h1 class="title">ABOUT ME</h1>

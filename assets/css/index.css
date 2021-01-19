@@ -205,6 +205,24 @@ button, input, textarea, h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
 
+#page .top.chapter .btn-download-cv {
+  margin-top: 60px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 1px dashed #FFFFFF;
+  background-color: transparent;
+  padding: 4px 8px;
+  font-size: 15px;
+  font-weight: 400;
+  -webkit-transition: background 500ms;
+  transition: background 500ms;
+}
+
+#page .top.chapter .btn-download-cv:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
 #page .about.chapter p {
   width: 65vw;
   font-size: 20px;
