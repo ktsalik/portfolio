@@ -15,7 +15,7 @@ body {
 
 #page .menu {
   position: fixed;
-  top: 200px;
+  top: calc((100% - 386px) / 2);
   right: 1vw;
 }
 
@@ -328,7 +328,7 @@ body {
   margin-left: -1px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 810px) {
   #page .menu {
     right: 100vw;
   }
