@@ -1,3 +1,6 @@
+<?php
+  $uniqid = uniqid();
+?>
 <!doctype html>
 <html>
 <head>
@@ -21,7 +24,7 @@
       },
     });
   </script>
-  <link href="assets/css/index.css" rel="stylesheet">
+  <link href="assets/css/index.css?v=<?= $uniqid ?>" rel="stylesheet">
   <title>Costas Tsalikides | Web Developer</title>
 </head>
 <body>
@@ -156,7 +159,7 @@
             <div class="date">2016 - 2017</div>
             <div class="title">Font-end Developer</div>
             <div class="place">Circles Ltd, Limassol, Cyprus</div>
-            <div class="description">I’ve been   part of a team for the implementation of the User Interface of a WiFi prototype. I have worked with Atlassian Software in an agile environment developing new features.</div>
+            <div class="description">I've been   part of a team for the implementation of the User Interface of a WiFi prototype. I have worked with Atlassian Software in an agile environment developing new features.</div>
           </div>
           <div class="seperator"></div>
           <div class="start-point"></div>
@@ -173,7 +176,6 @@
     </div>
   </div>
 
-  <!-- <script src="assets/lib/jquery-3.5.1.slim.min.js"></script> -->
-  <script src="assets/js/index.js"></script>
+  <script src="assets/js/index.js?v=<?= $uniqid ?>"></script>
 </body>
 </html>
